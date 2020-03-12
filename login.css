@@ -1,0 +1,58 @@
+html body{
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(224, 142, 204);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.login{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column;
+}
+
+fieldset{
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.507);
+
+}
+
+.login h1{
+    font-family: Hey August;    
+    font-size: 300%;
+    color: white; color: whitesmoke; text-shadow: rgb(58, 56, 56) 0.1em 0.1em 0.2em;
+}
+
+.back{
+    display: inline-block;
+    border: 2px solid #fff;
+    box-shadow:#FFF 0px 0px 10px, rgb(238, 61, 149) 0px 0px 20px, #FF2D95 0px 0px 30px, 2px 2px 2px 
+    rgba(206,89,55,0);
+    color: #FFFFFF;;
+    padding: 30px 40px;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:rgba(247, 159, 159, 0.753);
+    float: right;
+    border-radius:10px;
+    
+
+}
+
+.back:hover {
+	background:linear-gradient(to bottom, #dd8888bb 5%, #da8686cb 100%);
+	background-color:#db9696c7;
+}
+.back:active {
+	position:relative;
+	top:1px;
+}

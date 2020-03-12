@@ -1,0 +1,238 @@
+
+html , body {
+    margin: 0;
+    padding: 0%;
+    scroll-behavior : smooth;
+}
+
+
+
+header {
+    
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+}
+
+header * {
+    display: inline;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+
+/* หน้าแรกกกกกกกกกกก*/
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 120vh;
+    
+    
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white;
+    
+    /* Background styles */
+    background-image: linear-gradient(rgba(255, 163, 243, 0.438),rgba(255, 220, 250, 0.39)), url('ga3.gif');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 900%;
+    font-family: Angeline Vintage;
+    color: whitesmoke; text-shadow: rgb(58, 56, 56) 0.1em 0.1em 0.2em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    margin: auto;
+}
+
+.hero h2{
+    font-size: 300%;
+    font-family: Hey August;
+    color: whitesmoke; text-shadow: rgb(58, 56, 56) 0.1em 0.1em 0.2em;
+}
+
+
+/* หน้าสองงงงงงงงงงงงงง*/
+
+.profile{
+   /* Sizing */
+   width: 100vw;
+   height: 120vh;
+
+
+   
+   /* Flexbox stuff */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   /* Text styles */
+   text-align: center;
+   color: rgb(255, 255, 255);
+    background: #F7C1C1;
+    /*text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);*/
+   
+   /* Background styles */
+   background-image: linear-gradient(rgba(119, 81, 81, 0.548),rgba(255, 255, 255, 0.363)), url('ga4.gif');
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+
+.profile h1 {
+    font-size: 300%;
+    font-family: DilleniaUPC;
+}
+
+.profile h2 {
+    font-size: 150%;
+    font-family: Quark;
+}
+
+.profile h3 {
+    font-size: 200%;
+    font-family: Quark;
+}
+
+.profile h4 {
+    font-size: 150%;
+    font-family: Quark;
+}
+/* หน้าสามมมมมมมมมมมมมมมมมม*/
+
+.work{
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    flex-flow:column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: black;
+    
+    /* Background styles */
+    background-image: linear-gradient(rgba(175, 170, 170, 0.288),rgba(255, 255, 255, 0.363)), url('nep.gif');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.work h1{
+    font-size: 400%;
+    font-family: Quark;
+    text-align: center;
+    color: white;
+    text-shadow: #FFF 0px 0px 10px, #FF2D95 0px 0px 20px,
+     #FF2D95 0px 0px 30px, 2px 2px 2px rgba(206,89,55,0);
+}
+
+.work h2{
+    font-size: 200%;
+    font-family: Quark;
+    text-align: center;
+    color: white;
+}
+
+.button{
+    display: inline-block;
+    border: 2px solid #fff;
+    box-shadow:#FFF 0px 0px 10px, rgb(238, 61, 149) 0px 0px 20px, #FF2D95 0px 0px 30px, 2px 2px 2px 
+    rgba(206,89,55,0);
+    color: #FFFFFF;;
+    padding: 30px 40px;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:rgba(255, 255, 255, 0.226);
+}
+
+/* ท้ายสุดดดดดดดดดดดดดดดด*/
+
+.contact{
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    line-height: 5pt;
+}
+
+.contact h1{
+    font-size: 300%;
+    font-family: Cordia New;
+    
+}
+
+.contact h2 {
+    font-size: 200%;
+    font-family: Cordia New;
+    line-height: 25pt;
+}
+
+.contact h3{
+    font-size: 100%;
+    font-family: Cordia New;
+    line-height: 15pt;
+    text-align: center;
+}
+
+
+
+.button1{
+	box-shadow: 0px 10px 14px -7px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#803d4d;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    padding: 0px 20px;
+}
+
+.button1:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.botton1:active {
+	position:relative;
+	top:1px;
+}
+

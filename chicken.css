@@ -1,0 +1,129 @@
+html body{
+    color: white;
+}
+h1{
+    font-family: Cordia New;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+
+}
+h2{
+	font-family:Cordia New;
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+
+}
+#chicken-5{
+    width: 15%;
+    border: 5px solid rgb(255, 255, 255);
+	margin-left: 300px;
+    
+}
+#c1{
+	width: 80%;
+    margin-top: 20px;
+    border: 5px solid rgb(255, 255, 255);
+}
+.c2{
+	width: 5px;
+    margin-left: 200px;
+    border: 5px solid rgb(255, 255, 255);
+    font-size: 100%;
+}
+.p1{
+	text-align: left;
+	font-size: 100%;
+	margin-left: 50pt;
+}
+li{
+	font-size: 100%;
+	text-align: left;
+	margin-left: 50px;
+	margin-left: 50pt;
+}
+#c5{
+	width: 80%;
+    margin-top: 150px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+h3{
+    font-size: 200%;
+    font-family: Cordia New;
+    color: white;
+}
+
+
+.grid-container {
+	display: grid;
+    grid-template-columns: 30% auto 20% ;
+}
+.grid-container > div{
+	border: 1px solid rgb(255, 255, 255);
+	font-size: 100%px;
+    text-align: center;
+    background-color: rgb(255, 187, 86);
+}
+#header{
+	grid-column:  1 / span 3 ;	
+}
+#main1{
+	grid-column: 1 / span 1;
+
+}
+#main2{
+	grid-column: 2/ span 1;
+
+}
+#main3{
+	grid-column: 3 / span 1;
+}
+#main4{
+	grid-column: 1 / span 3;
+}
+
+
+.p2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.p2 > img{
+	width: 40%;
+    margin-left: 20px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+h4{
+    font-size: 200%;
+    font-family: Cordia New;
+}
+
+.back{
+    display: inline-block;
+    border: 2px solid #fff;
+    box-shadow:#FFF 0px 0px 10px, rgb(238, 61, 149) 0px 0px 20px, #FF2D95 0px 0px 30px, 2px 2px 2px 
+    rgba(206,89,55,0);
+    color: #FFFFFF;;
+    padding: 30px 40px;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:rgba(247, 159, 159, 0.753);
+    float: right;
+    border-radius:10px;
+    
+
+}
+
+.back:hover {
+	background:linear-gradient(to bottom, #dd8888bb 5%, #da8686cb 100%);
+	background-color:#db9696c7;
+}
+.back:active {
+	position:relative;
+	top:1px;
+}

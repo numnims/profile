@@ -1,0 +1,131 @@
+html body{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior : smooth;
+}
+
+header {
+    
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+header * {
+    display: inline;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+.button{
+	box-shadow: 0px 10px 14px -7px #000000;
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    padding: 0px 20px;
+}
+
+.button:hover {
+	background:linear-gradient(to bottom, #525252 5%, #696969 100%);
+	background-color:#f6f6f6;
+}
+.botton:active {
+	position:relative;
+	top:1px;
+}
+
+.work{
+    /* Sizing */
+    width: 100vw;
+    height: 200vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: black;
+   
+    /* Background styles */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
+
+}
+
+
+.work h1{
+    font-size: 500%;
+    font-family:Hey August;
+    text-align: left;
+     color: black;
+}
+
+.work h2 {
+    font-size: 300%;
+    font-family: Stencil;
+    text-align: left;
+    text-align: left;
+     color: black;
+}
+
+.work h3{
+        
+        font-size: 300%;
+        font-family: Stencil;
+        text-align: left;
+        text-align: left;
+        color: black;
+    }
+.work h4{
+        font-size: 300%;
+        font-family: Stencil;
+        text-align: left;
+        text-align: left;
+        color: black;
+}
+
+.contact{
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+.contact h1{
+    font-size: 300%;
+    font-family: Cordia New;
+    color: white;
+    
+}
+
+.contact h2 {
+    font-size: 200%;
+    font-family: Cordia New;
+    line-height: 25pt;
+    color: white;
+}
